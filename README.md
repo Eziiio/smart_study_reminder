@@ -1,16 +1,34 @@
-# smart_study_reminder
+# 📱 Smart Study Reminder App
 
-A new Flutter project.
+A smart productivity app built with **Flutter** that keeps you awake and focused during study sessions by detecting inactivity and alerting you with a gentle notification or vibration.
 
-## Getting Started
+> “Stay focused — your study partner in staying awake.”
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔕 Detects screen inactivity (no taps or scrolls)
+- 🔔 Sends notification + vibration if idle too long
+- 🌙 Night-friendly dark mode
+- 🔒 Keeps screen awake using Wakelock
+- ⚙️ Lightweight and offline-friendly
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Prerequisites
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Android Studio or VS Code with Flutter plugin
+
+### 🛠️ Run the App
+
+```bash
+git clone https://github.com/Eziiio/smart_study_reminder.git
+cd smart_study_reminder
+flutter pub get
+flutter run
